@@ -14,5 +14,5 @@ I have been looking for ways to archieve and look back the things that I have le
    :caption: Contents
    :name: TOC
 
-   sphinx-setup
-   avr-programmer
+   contents/sphinx-setup
+   contents/avr-programmer
