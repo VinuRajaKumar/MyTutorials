@@ -17,6 +17,13 @@ import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
+# The suffix of source filenames.
+source_suffix = '.rst'
+
+# The master toctree document.
+master_doc = 'index'
+
+# General information about the project.
 project = 'Vinu Raja Kumar C'
 copyright = '2020, Vinu Raja Kumar C'
 author = 'Vinu Raja Kumar C'
