@@ -5,7 +5,7 @@
 
 Welcome to My Tutorials!
 =======================================
-I have been looking for ways to archieve and look back the things that I have learned over the years. Recently, I came across this document hosting site `Read the Docs <https://readthedocs.org/>`_ and a document generation tool `SPHINX <https://www.sphinx-doc.org/en/master/>`_. The `Read the Docs <https://readthedocs.org/>`_ can host the documentation directly from version control repository service `GitHub <https://github.com/>`_. The `SPHINX <https://www.sphinx-doc.org/en/master/>`_ tool allows us to write the documentation in a markup language called `reStructuredText <http://docutils.sourceforge.net/rst.html>`_. This tutorial has been completly written using these tools and has been hosted in the online repository github.
+I had been looking for ways to archive and look back the things that I have learned over the years. Recently, I came across this document hosting site `Read the Docs <https://readthedocs.org/>`_ and a document generation tool `SPHINX <https://www.sphinx-doc.org/en/master/>`_. The `Read the Docs <https://readthedocs.org/>`_ site can host the documentation directly from version control repository service `GitHub <https://github.com/>`_. The `SPHINX <https://www.sphinx-doc.org/en/master/>`_ tool allows us to write the documentation in a markup language called `reStructuredText <http://docutils.sourceforge.net/rst.html>`_. This tutorial has been completly written using these tools and has been hosted in the online repository github.
 
 .. toctree::
    :numbered: 1
