@@ -43,17 +43,15 @@ The first challenge is to find and install a suitable USB driver for **AVRISP mk
 
 Working Solution
 ################
-1) Install the olimex Driver
 
-  - Download `olimex driver <https://www.olimex.com/Products/AVR/Programmers/AVR-ISP-MK2/resources/DRIVER-MK2-AS-6-7-W10.zip>`_.
-  - Extract the zip file
-  
-2) Manually uninstall any existing AVR ISP Drivers and update to the new driver.
-    
-Basic Command Ref : (https://www.ladyada.net/learn/avr/avrdude.html)
+- Download `olimex driver <https://www.olimex.com/Products/AVR/Programmers/AVR-ISP-MK2/resources/DRIVER-MK2-AS-6-7-W10.zip>`_.
 
-Basic commands
-##############
+- Extract the zip file
+
+- Manually update to the new driver.
+
+Basic commands `Ref <https://www.ladyada.net/learn/avr/avrdude.html>`_
+######################################################################
 
 .. code-block:: bash
 
