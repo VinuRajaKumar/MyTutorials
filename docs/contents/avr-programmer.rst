@@ -14,7 +14,7 @@ Programming Software `AVRDUDE <http://savannah.nongnu.org/projects/avrdude>`_
 Interface            USB 
 ==================== ======================
 
-AVRDUDE (*software*)
+AVRDUDE (*Software*)
 ####################
 AVRDUDE utility supports programming of AVR devices using a wide range of hardwares (including AVR ISP mkII) through in-system programming (ISP). It's command line driven interface enables aumation by including it in makefiles.
 
