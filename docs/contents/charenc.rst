@@ -20,9 +20,15 @@ ISO 8859
 
 The drawback to this encoding scheme is its inability to accommodate languages comprised of more than 128 symbols, or to safely display more than one family of symbols at one time.
 
+Code Points and Encoding
+========================
+
+When a particular character of ASCII or ISO 8859 character set is represented in computers, the same assigned 8 bit value representing the character is used to store the character in computer.
+
 .. note::
 
-	As well, ISO-8859 encodings have fallen out of favor with the rise of UTF. The ISO "Working Group" in charge of it having disbanded in 2004, leaving maintenance up to its parent subcommittee.
+	Unicode only define code points, that is, a number which represents a character. How you store these code points in memory depends of the encoding that you are using. UTF-8 is one way of encoding Unicode characters, among many others.
+
 
 UTF-8
 =====
@@ -44,7 +50,7 @@ Long story short: any character with a code point/ordinal representation below 1
 
 
 
-Unicode only define code points, that is, a number which represents a character. How you store these code points in memory depends of the encoding that you are using. UTF-8 is one way of encoding Unicode characters, among many others.
+
 
 For Unicode text to be transmitted or stored, it must be encoded into a sequence of bytes. UTF-8 and UTF-16 are common encodings that can handle the entire range of characters. Both are variable length encodings where some characters take more bytes than others.
 
@@ -73,12 +79,19 @@ UTF-8 has the following properties:
 
 The following byte sequences are used to represent a character. The sequence to be used depends on the Unicode number of the character:
 
-U-00000000 – U-0000007F: 	0xxxxxxx
-U-00000080 – U-000007FF: 	110xxxxx 10xxxxxx
-U-00000800 – U-0000FFFF: 	1110xxxx 10xxxxxx 10xxxxxx
-U-00010000 – U-001FFFFF: 	11110xxx 10xxxxxx 10xxxxxx 10xxxxxx
-U-00200000 – U-03FFFFFF: 	111110xx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx
-U-04000000 – U-7FFFFFFF: 	1111110x 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx
+======================= ======== ======== ======== ======== ======== ========
+U-00000000 – U-0000007F 0xxxxxxx                                     
+----------------------- -------- -------- -------- -------- -------- --------
+U-00000080 – U-000007FF 110xxxxx 10xxxxxx                            
+----------------------- -------- -------- -------- -------- -------- --------
+U-00000800 – U-0000FFFF 1110xxxx 10xxxxxx 10xxxxxx                   
+----------------------- -------- -------- -------- -------- -------- --------
+U-00010000 – U-001FFFFF 11110xxx 10xxxxxx 10xxxxxx 10xxxxxx          
+----------------------- -------- -------- -------- -------- -------- --------
+U-00200000 – U-03FFFFFF 111110xx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx 
+----------------------- -------- -------- -------- -------- -------- --------
+U-04000000 – U-7FFFFFFF 1111110x 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx 10xxxxxx
+======================= ======== ======== ======== ======== ======== ========
 
 The xxx bit positions are filled with the bits of the character code number in binary representation. The rightmost x bit is the least-significant bit. Only the shortest possible multibyte sequence which can represent the code number of the character can be used. Note that in multibyte sequences, the number of leading 1 bits in the first byte is identical to the number of bytes in the entire sequence.
 

@@ -30,5 +30,6 @@ All the details, provided in this tutorials, have been gathered from the informa
    contents/libraries
    contents/mingwcygwin
    contents/charenc
+   contents/gcc.rst
 
 You can reach me in `VinuRajaKumar@gmail.com <VinuRajaKumar@gmail>`_

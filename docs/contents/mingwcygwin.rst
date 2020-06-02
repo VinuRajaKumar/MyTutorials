@@ -3,7 +3,7 @@
 ===============
 MinGW Vs CygWin
 ===============
-Before understanding the difference between MinGW and CygWin, it is essential to know about what is POSIX.
+Before understanding the difference between MinGW and CygWin, it is essential to know about POSIX.
 
 POSIX
 =====
