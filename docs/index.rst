@@ -23,13 +23,21 @@ All the details, provided in this tutorials, have been gathered from the informa
    :name: TOC
 
    contents/sphinx-setup
-   contents/avr-programmer
-   contents/youtube-dl
    contents/graphics3D
-   contents/OpenGL
-   contents/libraries
-   contents/mingwcygwin
+   contents/altium.rst
+   contents/atom.rst
+   contents/avr-programmer
+   contents/avr-fuse-attiny84.rst
    contents/charenc
+   contents/codeblocks
    contents/gcc.rst
+   contents/mingwcygwin
+   contents/OpenGL
+   contents/PCSolutions
+   contents/pythonoffline.rst
+   contents/solidworks
+   contents/libraries
+   contents/XBee.rst
+   contents/youtube-dl
 
 You can reach me in `VinuRajaKumar@gmail.com <VinuRajaKumar@gmail>`_

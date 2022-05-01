@@ -25,11 +25,11 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Vinu Raja Kumar C'
-copyright = '2020, Vinu Raja Kumar C'
+copyright = '2022, Vinu Raja Kumar C'
 author = 'Vinu Raja Kumar C'
 
 # The full version, including alpha/beta/rc tags
-release = '1.0.0'
+release = '1.0.1'
 
 
 # -- General configuration ---------------------------------------------------
