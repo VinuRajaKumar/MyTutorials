@@ -32,12 +32,14 @@ All the details, provided in this tutorials, have been gathered from the informa
    contents/codeblocks
    contents/gcc.rst
    contents/mingwcygwin
+   contents/miktexoffline
    contents/OpenGL
    contents/PCSolutions
    contents/pythonoffline.rst
    contents/solidworks
    contents/libraries
    contents/XBee.rst
-   contents/youtube-dl
+   contents/youtube-dl.rst
+   contents/test.rst
 
 You can reach me in `VinuRajaKumar@gmail.com <VinuRajaKumar@gmail>`_

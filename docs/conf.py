@@ -25,7 +25,7 @@ master_doc = 'index'
 
 # General information about the project.
 project = 'Vinu Raja Kumar C'
-copyright = '2022, Vinu Raja Kumar C'
+copyright = '2023, Vinu Raja Kumar C'
 author = 'Vinu Raja Kumar C'
 
 # The full version, including alpha/beta/rc tags
@@ -41,6 +41,20 @@ extensions = [
 'sphinx_rtd_theme',
 'sphinx_copybutton',
 ]
+
+
+## conf.py
+
+# These folders are copied to the documentation's HTML output
+html_static_path = ['_static']
+
+# These paths are either relative to html_static_path
+# or fully qualified paths (eg. https://...)
+html_css_files = [
+    'css/key.css',
+]
+
+
 
 # Add any paths that contain templates here, relative to this directory.
 templates_path = ['_templates']

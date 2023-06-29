@@ -1,5 +1,5 @@
-Python packages offline installation
-====================================
+Python packages offline installation (Windows)
+==============================================
 Lets say, we have two PCs with identical software configuration (OS, number of bits & python version); **Internet PC**, the one that has access to internet and a **Target PC**, which has no access to interet. The following steps describe how to update/install python packages in the **Target PC** with the help of **Internet PC**.
 
 1. Open command prompt and enter the following commands. [**Internet PC**]

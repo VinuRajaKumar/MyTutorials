@@ -76,6 +76,7 @@ AVR ATtiny84 Fuse configuration
 	
 AVRDUDE command
 ###############
+
  .. code-block:: bash
  
 	avrdude -U lfuse:w:0x6A:m -U hfuse:w:0xDF:m -U efuse:w:0xFF:m -U lock:w:0xFF:m

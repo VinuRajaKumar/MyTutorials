@@ -75,6 +75,19 @@ Reorient rotated Strings
 ------------------------
 	``references->Schematic->Graphical Editing->uncheck (or maybe check) the box for Display Strings as rotated.`` 
 
+Altium
+	Show 3D Bodies : CNTL+Z
+
+Orthographic & Perspective Projection
+	Right side Bottom Panel -> View Configuration
+	
+Single Layer Mode
+	SHIFT+S
+
+Zero Rotation	0
+90 Deg Rotation 9
+Orthogonal Rotation 8
+
 Clear the selection of the Find Similar Objects
 -----------------------------------------------           
 	

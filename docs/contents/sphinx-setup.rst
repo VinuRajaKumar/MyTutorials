@@ -26,7 +26,8 @@ Having deployed my tutorials in `Read the Docs <https://readthedocs.org/>`_, my 
 
 .. code-block:: bash
 
-	pip install -U sphinx_rtd_theme	
+	pip install -U sphinx_rtd_theme
+	pip install -U sphinx_copybutton
 
 4. Configure Sphinx
 
