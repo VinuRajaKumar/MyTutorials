@@ -1,0 +1,78 @@
+/* --- Dark‑mode override for the Alabaster theme ------------------- */
+
+/* 1. Base page ----------------------------------------------------- */
+body {
+    background: #1e1e1e;      /* near‑black */
+    color:       #d4d4d4;     /* light gray text */
+}
+
+/* 2. Content area -------------------------------------------------- */
+div.document,
+div.body {
+    background: transparent;  /* keep page background uniform */
+}
+
+/* Headings */
+h1, h2, h3, h4, h5, h6,
+a, a:visited {
+    color: #4fc3f7;           /* cyan‑accent links & headers */
+}
+a:hover,
+a:focus {
+    color: #82e9ff;
+    text-decoration: underline;
+}
+
+/* 3. Code blocks --------------------------------------------------- */
+.highlight pre,
+.rst-content tt,
+.rst-content code {
+    background: #252526;      /* VS‑Code style dark slate */
+    color:      #dcdcdc;
+}
+
+/* Literal blocks get a border so they stand out */
+.highlight,
+.literal-block {
+    border: 1px solid #333;
+}
+
+/* 4. Sidebar ------------------------------------------------------- */
+div.sphinxsidebar {
+    background: #2d2d30;
+    color:      #cccccc;
+}
+div.sphinxsidebar a {
+    color: #9cdcfe;
+}
+div.sphinxsidebar a:hover {
+    color: #b3ecff;
+}
+
+/* Sidebar headings */
+div.sphinxsidebar h3,
+div.sphinxsidebar h4 {
+    color: #d7ba7d;           /* warm accent */
+}
+
+/* 5. Admonitions / notes ------------------------------------------ */
+.admonition,
+.note,
+.warning,
+.tip,
+.important {
+    background: #252526;
+    border-left: 4px solid #4fc3f7;
+}
+
+/* 6. Tables -------------------------------------------------------- */
+table.docutils th,
+table.docutils td {
+    background: #1e1e1e;
+    border: 1px solid #333;
+}
+
+/* 7. Intersphinx “external‑link” icon tweaks (white SVG) ----------- */
+a.external::after {
+    filter: invert(100%);
+}

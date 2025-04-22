@@ -51,9 +51,18 @@ html_static_path = ['_static']
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
 html_css_files = [
+    "dark_alabaster.css",
     'css/key.css',
 ]
 
+# Optional: minimal Alabaster options to harmonise spacing
+html_theme_options = {
+    "body_text": "#d4d4d4",
+    "sidebar_text": "#cccccc",
+    "link": "#4fc3f7",
+    "sidebar_link": "#9cdcfe",
+    "anchor": "#4fc3f7",
+}
 
 
 # Add any paths that contain templates here, relative to this directory.
@@ -70,7 +79,7 @@ exclude_patterns = []
 # The theme to use for HTML and HTML Help pages.  See the documentation for
 # a list of builtin themes.
 #
-html_theme = "sphinx_rtd_theme"
+html_theme = "alabaster"
 
 # Add any paths that contain custom static files (such as style sheets) here,
 # relative to this directory. They are copied after the builtin static files,
