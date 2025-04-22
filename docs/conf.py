@@ -13,7 +13,6 @@
 # import os
 # import sys
 # sys.path.insert(0, os.path.abspath('.'))
-import sphinx_rtd_theme
 
 # -- Project information -----------------------------------------------------
 
@@ -38,7 +37,6 @@ release = '1.0.1'
 # extensions coming with Sphinx (named 'sphinx.ext.*') or your custom
 # ones.
 extensions = [
-'sphinx_rtd_theme',
 'sphinx_copybutton',
 ]
 
@@ -51,8 +49,8 @@ html_static_path = ['_static']
 # These paths are either relative to html_static_path
 # or fully qualified paths (eg. https://...)
 html_css_files = [
-    "dark_alabaster.css",
-    'css/key.css',
+    "css/dark_alabaster.css",
+    "css/key.css",
 ]
 
 # Optional: minimal Alabaster options to harmonise spacing

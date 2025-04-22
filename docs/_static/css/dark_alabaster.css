@@ -1,9 +1,36 @@
 /* --- Dark‑mode override for the Alabaster theme ------------------- */
 
+/* === Import Roboto Variable Font === */
+@font-face {
+  font-family: 'Roboto';
+  src: url('../fonts/Roboto-VariableFont_wdth_wght.ttf') format('ttf');
+  font-weight: 100 900; /* Weight axis from 100 to 900 */
+  font-style: normal;
+}
+
+/* === Import Fira Code Variable Font === */
+@font-face {
+  font-family: 'Fira Code';
+  src: url('../fonts/FiraCode-VariableFont_wght.ttf') format('ttf');
+  font-weight: 100 900; /* Weight axis from 100 to 900 */
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url('../fonts/Inter-VariableFont_opsz_wght.ttf') format('ttf');
+  font-weight: 100 900; /* Range for the weight axis (from 100 to 900) */
+  font-style: normal;
+}
+
 /* 1. Base page ----------------------------------------------------- */
 body {
     background: #1e1e1e;      /* near‑black */
     color:       #d4d4d4;     /* light gray text */
+	font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400; /* Regular weight */
 }
 
 /* 2. Content area -------------------------------------------------- */
@@ -75,4 +102,38 @@ table.docutils td {
 /* 7. Intersphinx “external‑link” icon tweaks (white SVG) ----------- */
 a.external::after {
     filter: invert(100%);
+}
+
+/* === General Layout for Dark Theme === */
+body {
+    background-color: #1a1a1a;
+    color: #e0e0e0;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    line-height: 1.6;
+    font-weight: 400; /* Regular weight */
+}
+
+/* === Headings with Roboto in Bold === */
+h1, h2, h3, h4, h5 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 600; /* Bold weight */
+    color: #f0f0f0;
+}
+
+/* === Code Blocks and Inline Code using Fira Code === */
+code, pre, .literal {
+    font-family: 'Fira Code', monospace;
+    background-color: #2b2b2b;
+    color: #ffcc66;
+    padding: 0.2em 0.4em;
+    border-radius: 4px;
+}
+
+pre {
+    padding: 1em;
+    overflow-x: auto;
+    border: 1px solid #444;
+    background-color: #202020;
+    color: #eaeaea;
 }

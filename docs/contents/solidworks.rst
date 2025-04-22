@@ -18,4 +18,4 @@ Change SOLIDWORKS Sheet Format
 	Right click on any sheet.
 	Select "Sheet Properties dialog".
 	Got to "Sheet Properties" tab.
-	Select the “Select Sheets to Modify” button.
+	Select the "Select Sheets to Modify" button.

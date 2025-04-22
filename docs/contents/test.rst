@@ -6,6 +6,8 @@ Test Page
 Shortcuts
 -----------
 
+Press :kbd:`Ctrl` + :kbd:`C` to copy.
+
 	Press :kbd:`ctrl` + :kbd:`s`
 	
 Copy :kbd:`ctrl` + :kbd:`c`
